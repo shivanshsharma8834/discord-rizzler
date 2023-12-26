@@ -1,8 +1,8 @@
 import discord 
 import random
 
-word_list = [word.strip() for word in open('INSERT_WORD_LIST','r').readlines()]
-name_list = [word.strip() for word in open('INSERT_NAME_LIST','r').readlines()]
+word_list = [word.strip() for word in open('INSERT_WORD_LIST_LOCATION','r').readlines()]
+name_list = [word.strip() for word in open('INSERT_NAME_LIST_LOCATION','r').readlines()]
 
 
 intents = discord.Intents.default()
